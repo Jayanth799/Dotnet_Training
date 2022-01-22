@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "OsNc3lx+V1aOafv46nxUYx+OxJmNI97bs0SKx6f3pqyqywDBkJW1YW6Vkv2p+/6lU7cKK81MGWoPSCwsLiqO8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jayanth Kundala\\source\\repos\\SOLIDPrinciples\\SRPPOC\\SRPPOC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jayanth Kundala\\.nuget\\packages\\mailkit\\3.1.0\\mailkit.3.1.0.nupkg.sha512",
+    "C:\\Users\\Jayanth Kundala\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Jayanth Kundala\\.nuget\\packages\\mimekit\\3.1.0\\mimekit.3.1.0.nupkg.sha512",
+    "C:\\Users\\Jayanth Kundala\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
+    "C:\\Users\\Jayanth Kundala\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Jayanth Kundala\\.nuget\\packages\\system.reflection.typeextensions\\4.4.0\\system.reflection.typeextensions.4.4.0.nupkg.sha512",
+    "C:\\Users\\Jayanth Kundala\\.nuget\\packages\\system.security.cryptography.cng\\4.7.0\\system.security.cryptography.cng.4.7.0.nupkg.sha512",
+    "C:\\Users\\Jayanth Kundala\\.nuget\\packages\\system.security.cryptography.pkcs\\4.7.0\\system.security.cryptography.pkcs.4.7.0.nupkg.sha512",
+    "C:\\Users\\Jayanth Kundala\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

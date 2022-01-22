@@ -1,0 +1,13 @@
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\OCPPrinciple\bin\Debug\netcoreapp3.1\OCPPrinciple.exe
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\OCPPrinciple\bin\Debug\netcoreapp3.1\OCPPrinciple.deps.json
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\OCPPrinciple\bin\Debug\netcoreapp3.1\OCPPrinciple.runtimeconfig.json
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\OCPPrinciple\bin\Debug\netcoreapp3.1\OCPPrinciple.runtimeconfig.dev.json
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\OCPPrinciple\bin\Debug\netcoreapp3.1\OCPPrinciple.dll
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\OCPPrinciple\bin\Debug\netcoreapp3.1\OCPPrinciple.pdb
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\OCPPrinciple\obj\Debug\netcoreapp3.1\OCPPrinciple.AssemblyInfoInputs.cache
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\OCPPrinciple\obj\Debug\netcoreapp3.1\OCPPrinciple.AssemblyInfo.cs
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\OCPPrinciple\obj\Debug\netcoreapp3.1\OCPPrinciple.csproj.CoreCompileInputs.cache
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\OCPPrinciple\obj\Debug\netcoreapp3.1\OCPPrinciple.dll
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\OCPPrinciple\obj\Debug\netcoreapp3.1\OCPPrinciple.pdb
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\OCPPrinciple\obj\Debug\netcoreapp3.1\OCPPrinciple.genruntimeconfig.cache
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\OCPPrinciple\obj\Debug\netcoreapp3.1\OCPPrinciple.csproj.AssemblyReference.cache

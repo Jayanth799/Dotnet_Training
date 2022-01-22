@@ -1,0 +1,13 @@
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\ISPPOC\bin\Debug\netcoreapp3.1\ISPPOC.exe
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\ISPPOC\bin\Debug\netcoreapp3.1\ISPPOC.deps.json
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\ISPPOC\bin\Debug\netcoreapp3.1\ISPPOC.runtimeconfig.json
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\ISPPOC\bin\Debug\netcoreapp3.1\ISPPOC.runtimeconfig.dev.json
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\ISPPOC\bin\Debug\netcoreapp3.1\ISPPOC.dll
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\ISPPOC\bin\Debug\netcoreapp3.1\ISPPOC.pdb
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\ISPPOC\obj\Debug\netcoreapp3.1\ISPPOC.csproj.AssemblyReference.cache
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\ISPPOC\obj\Debug\netcoreapp3.1\ISPPOC.AssemblyInfoInputs.cache
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\ISPPOC\obj\Debug\netcoreapp3.1\ISPPOC.AssemblyInfo.cs
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\ISPPOC\obj\Debug\netcoreapp3.1\ISPPOC.csproj.CoreCompileInputs.cache
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\ISPPOC\obj\Debug\netcoreapp3.1\ISPPOC.dll
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\ISPPOC\obj\Debug\netcoreapp3.1\ISPPOC.pdb
+C:\Users\Jayanth Kundala\source\repos\SOLIDPrinciples\ISPPOC\obj\Debug\netcoreapp3.1\ISPPOC.genruntimeconfig.cache
