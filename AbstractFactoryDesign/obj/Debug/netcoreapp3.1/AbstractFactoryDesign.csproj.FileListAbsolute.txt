@@ -1,0 +1,14 @@
+C:\Users\jayan\source\repos\AbstractFactoryDesign\bin\Debug\netcoreapp3.1\AbstractFactoryDesign.exe
+C:\Users\jayan\source\repos\AbstractFactoryDesign\bin\Debug\netcoreapp3.1\AbstractFactoryDesign.deps.json
+C:\Users\jayan\source\repos\AbstractFactoryDesign\bin\Debug\netcoreapp3.1\AbstractFactoryDesign.runtimeconfig.json
+C:\Users\jayan\source\repos\AbstractFactoryDesign\bin\Debug\netcoreapp3.1\AbstractFactoryDesign.runtimeconfig.dev.json
+C:\Users\jayan\source\repos\AbstractFactoryDesign\bin\Debug\netcoreapp3.1\AbstractFactoryDesign.dll
+C:\Users\jayan\source\repos\AbstractFactoryDesign\bin\Debug\netcoreapp3.1\AbstractFactoryDesign.pdb
+C:\Users\jayan\source\repos\AbstractFactoryDesign\obj\Debug\netcoreapp3.1\AbstractFactoryDesign.csproj.AssemblyReference.cache
+C:\Users\jayan\source\repos\AbstractFactoryDesign\obj\Debug\netcoreapp3.1\AbstractFactoryDesign.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jayan\source\repos\AbstractFactoryDesign\obj\Debug\netcoreapp3.1\AbstractFactoryDesign.AssemblyInfoInputs.cache
+C:\Users\jayan\source\repos\AbstractFactoryDesign\obj\Debug\netcoreapp3.1\AbstractFactoryDesign.AssemblyInfo.cs
+C:\Users\jayan\source\repos\AbstractFactoryDesign\obj\Debug\netcoreapp3.1\AbstractFactoryDesign.csproj.CoreCompileInputs.cache
+C:\Users\jayan\source\repos\AbstractFactoryDesign\obj\Debug\netcoreapp3.1\AbstractFactoryDesign.dll
+C:\Users\jayan\source\repos\AbstractFactoryDesign\obj\Debug\netcoreapp3.1\AbstractFactoryDesign.pdb
+C:\Users\jayan\source\repos\AbstractFactoryDesign\obj\Debug\netcoreapp3.1\AbstractFactoryDesign.genruntimeconfig.cache
