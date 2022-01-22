@@ -1,0 +1,7 @@
+ As you can see, the same action method “Index” is returning two different types named Content and View; if you want to return multiple types, you have to use base type as ActionResult.
+
+The above concept also answers the question “When to choose base type ActionResult or derived type?”
+
+Choosing the derived type for a specific result is a good practice, but when you want that your action method should return multiple types, then you have to use base type ActionResult.
+
+Now, the important concept comes. There are three categories for the derived types. Let’s take a look at it. s
