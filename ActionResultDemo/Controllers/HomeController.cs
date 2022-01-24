@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 
@@ -8,60 +9,65 @@ namespace ActionResultDemo.Controllers
 {
     public class HomeController : Controller
     {
-        public ViewResult Index()
+
+        //Content Returning Results 
+
+
+        public ActionResult Index()
         {
             return View();
         }
 
-        //public ViewResult Index()
-        //{
-        //    return View("SecondView");
-        //}
+        public ActionResult ViewResultsDemo()
+        {
+            return View("SecondView");
+        }
 
-        //public PartialViewResult Index()
-        //{
-        //    return PartialView("SecondView");
-        //}
+        public ActionResult PartialVIewResultsDemo()
+        {
+            return PartialView("SecondView");
+        }
 
-        //public ContentResult Index()
-        //{
-        //    return Content("<h3>Zain Ul Hassan </h3>");
-        //}
-        //public ContentResult Index()
-        //{
-        //    return Content("<h3>Zain Ul Hassan</h3>", "text/html");
-        //}
-        //public ContentResult Index()
-        //{
-        //    return Content("<script> alert('Hi! I am Zain Ul Hassan') </script>");
-        //}
+        public ActionResult ContentDemo()
+        {
+            return Content("<h3>Zain Ul Hassan </h3>");
+        }
 
+        public ActionResult ContentWithTypeDemo()
+        {
+            return Content("<h3>Zain Ul Hassan</h3>", "text/html");
+        }
 
-        //public EmptyResult Index()
-        //{
-        //    return new EmptyResult();
-        //}
+        public ActionResult ScriptAsContent()
+        {
+            return Content("<script> alert('Hi! I am Zain Ul Hassan') </script>");
+        }
 
-        //public ActionResult Index()
-        //{
-        //    return null;
-        //}
+        public ActionResult EmptyResultDemo()
+        {
+            return new EmptyResult();
+        }
 
-        //public FileResult Index()
-        //{
-        //    return File("~/Files/DemoFile.txt", "text/plain");
-        //}
+        public ActionResult EmptyDemo()
+        {
+            return null;
+        }
 
-        //public FileResult Index()
-        //{
-        //    return File(Url.Content("~/Files/DemoFile.txt"), "text/plain","Demo1.txt");
-        //}
+        public ActionResult FileContentDemo()
+        {
+            return File("~/Files/DemoFile.txt", "text/plain");
+        }
 
-        //public ActionResult Index()
-        //{
-        //    ViewBag.Message = "Your application description page.";
-        //    return Json(new { Name = "veeru", age = 23 }, JsonRequestBehavior.AllowGet);
-        //}
+        public ActionResult FileDownloadDemo()
+        {
+            return File(Url.Content("~/Files/DemoFile.txt"), "text/plain", "Demo1.txt");
+        }
+
+        public ActionResult JsonResultsDemo()
+        {
+            ViewBag.Message = "Your application description page.";
+            return Json(new { Name = "veeru", age = 23 }, JsonRequestBehavior.AllowGet);
+        }
 
         public ActionResult About()
         {
@@ -77,19 +83,43 @@ namespace ActionResultDemo.Controllers
             return View();
         }
 
-        public JavaScriptResult JavaScriptDemo()
+        public ActionResult JavaScriptDemo()
         {
             return JavaScript("alert('Zain Ul hassan')");
         }
 
-        public RedirectResult RedirectDemo()
+        //Redirection Results
+        public ActionResult RedirectDemo()
         {
             return Redirect("https://cognine.com/");
         }
 
-        public RedirectToRouteResult RedirectToRouteResultDemo()
+        public ActionResult RedirectToRouteResultDemo()
         {
-            return RedirectToRoute(new { Controller = "Home", action = "RedirectDemo" });
+            return RedirectToRoute(new { Controller = "Home", action = "HttpStatusCodeResultDemo" });
+        }
+
+
+        //Status Result
+
+        //HttpStatusCodeResult
+
+        public ActionResult HttpStatusCodeResultDemo()
+        {
+            return new HttpStatusCodeResult(HttpStatusCode.Unauthorized);
+        }
+
+        //HttpUnauthorizedResult
+
+        public ActionResult HttpUnauthorizedResultDemo()
+        {
+            return new HttpStatusCodeResult(HttpStatusCode.Unauthorized, "sorry! you don't have access.");
+        }
+
+        //HttpNotFoundResult
+        public ActionResult HttpNotFoundResultDemo()
+        {
+            return new HttpUnauthorizedResult("sorry! you don't have access.");
         }
     }
 }
