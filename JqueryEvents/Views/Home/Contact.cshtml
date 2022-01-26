@@ -2,9 +2,20 @@
     ViewBag.Title = "Contact";
 }
 
+<style>
+    ul {
+        margin-left: 20px;
+        color: black;
+    }
 
+    li {
+        cursor: default;
+    }
 
-
+    span {
+        color: red;
+    }
+</style>
 
 <p>Type 'cognine' to submit this form finally.</p>
 <h1>submit event</h1>
@@ -15,10 +26,57 @@
     </div>
 </form>
 <span></span>
+
+<div class="row">
+    <h1>KeyUp and KeyDown event</h1>
+    <div class="col-md-4">
+        <input type="text" id="KeydownEvent">
+    </div>
+</div>
+<div class="row">
+    <h1>KeyPress event</h1>
+    <div class="col-md-4">
+        <input type="text" id="KeyPressEvent">
+        <span id="keyPress">0</span>
+    </div>
+</div>
+<div class="row">
+    <h1 id="mouseEvent">mouse event</h1>
+    <div id="mouseEnter"></div>
+</div>
+<div class="row">
+    <p id="mouseEN">Move your mouse cursor over this statement.</p>
+</div>
+<div class="row">
+    <h1 id="h1">Enter this heading.</h1>
+    <div id="mouseLeave"></div>
+</div>
+
+<div class="row">
+    <ul>
+        <li>Java</li>
+        <li>SQL</li>
+        <li class="abc">Android</li>
+        <li class="abc">php</li>
+    </ul>
+</div>
+
+<div class="row">
+    <h1 id="m1">Enter this heading.</h1>
+    <div id="mouseDown"></div>
+</div>
+
+<div class="row">
+    <h1 id="mup">Enter this heading.</h1>
+    <div id="mouseUp"></div>
+</div>
+
+
+
 @section scripts
     {
     <script>
-
+        //submit
         $("form").submit(function (event) {
             if ($("input:first").val() === "cognine") {
                 $("span").text("submited successfully").show();
@@ -28,5 +86,67 @@
             event.preventDefault();
         });
 
+        //keyup and Keydown
+        $(document).ready(function () {
+            $("#KeydownEvent").keydown(function () {
+                $("#KeydownEvent").css("background-color", "green")
+            });
+
+            $("#KeydownEvent").keyup(function () {
+                $("#KeydownEvent").css("background-color", "yellow")
+            });
+
+            //key press
+            var i = 0;
+            $("#KeyPressEvent").keypress(function () {
+                $("#keyPress").text(i += 1)
+            });
+
+            //Mouse enter
+            $("#mouseEvent").mouseenter(function () {
+                $("#mouseEnter").text("Mouse entered on heading").show().fadeOut(2000);
+            });
+
+            //mouseEnter and mouseLeave
+            $("#mouseEN").mouseenter(function () {
+                $("#mouseEN").css("background-color", "green");
+            });
+
+            $("p").mouseleave(function () {
+                $("p").css("background-color", "red");
+            });
+
+            //mouseLeave
+            $("#h1").mouseleave(function () {
+                $("#mouseLeave").text("bye-bye............leaving heading").show().fadeOut(2000);
+            });
+
+            //mouseHover
+
+            $("li").hover(
+                function () {
+                    $(this).append($("<span> ***</span>"));
+                }, function () {
+                    $(this).find("span:last").remove();
+                }
+            );
+
+            $("li.abc").hover(function () {
+                $(this).fadeOut(200);
+                $(this).fadeIn(50000);
+            });
+
+
+            //mouseDown event
+            $("#m1").mousedown(function () {
+                $("#mouseDown").text("mouse down event triggered").show().fadeOut(2000);
+            });
+            //mouseUp event
+            $("#mup").mouseup(function () {
+                $("#mouseUp").text("Bye Bye... mouse up event triggered").show().fadeOut(2000);
+            });
+
+            //mouseOver
+        });
     </script>
-    }
+}
