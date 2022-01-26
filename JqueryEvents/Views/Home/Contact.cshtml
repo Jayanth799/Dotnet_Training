@@ -15,6 +15,20 @@
     span {
         color: red;
     }
+
+    div.out {
+        width: 40%;
+        height: 120px;
+        margin: 0 15px;
+        background-color: lightgreen;
+    }
+
+    div.in {
+        width: 60%;
+        height: 60%;
+        background-color: red;
+        margin: 10px auto;
+    }
 </style>
 
 <p>Type 'cognine' to submit this form finally.</p>
@@ -70,7 +84,15 @@
     <h1 id="mup">Enter this heading.</h1>
     <div id="mouseUp"></div>
 </div>
+<div class="row">
+    <img src="~/img/aa.jpg" />
+    <p><b>Note:</b> On some browsers, the load event did not trigger if the image is cached.</p>
 
+</div>
+<div class="out">
+    <span style="padding:20px">move your mouse</span>
+    <div class="in"></div>
+</div>
 
 
 @section scripts
@@ -146,7 +168,19 @@
                 $("#mouseUp").text("Bye Bye... mouse up event triggered").show().fadeOut(2000);
             });
 
-            //mouseOver
+            //mouseOver and mouseOut
+            $("div.out")
+                .mouseover(function () {
+                    $(this).find("span").text("mouse over ");
+                })
+                .mouseout(function () {
+                    $(this).find("span").text("mouse out ");
+                });
+
+            //onload
+            $("img").load(function () {
+                alert("Image loaded.");
+            });
         });
     </script>
 }
